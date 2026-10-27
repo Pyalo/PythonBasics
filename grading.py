@@ -1,6 +1,7 @@
 score = int(input("Enter score: "))
 
 # we are using if statement and it only executes when the a statement is true
+# kenya one
 
 if score >= 90:
     print("A")
