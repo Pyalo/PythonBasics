@@ -1,5 +1,7 @@
 .venv/
 .idea/
+*.mps
+*.txt
 
 #git init
 #git add .

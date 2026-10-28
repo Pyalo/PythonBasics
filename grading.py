@@ -26,3 +26,8 @@ else:
 #     print("AMAZING")
 # else:
 #     print("AMAZING")
+
+
+#bitbucket
+#gitlab
+#create demo projects and push to wither
