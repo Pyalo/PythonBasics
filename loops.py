@@ -29,13 +29,20 @@ students = [{"name":"Emerald Bowen","email":"ullamcorper.nisl@yahoo.org","countr
 # if country == "Australia":
 #     print(f"Name is {name} and citizen of {country} and {age} years old")
 
-total = 0
-for s in students:
-    age = s['age']
-    total = total + age
-
-average = total / len(students)
-print(average)
+# total = 0
+# for s in students:
+#     age = s['age']
+#     total = total + age
+#
+# average = total / len(students)
+# print(average)
 
 #lambda expressions
-# TODO sort the list / filter
+# sort the list / filter
+
+age_sorted = sorted(students, key = lambda s:s["country"])
+
+for student in age_sorted:
+    print(student)
+
+# what if someone tells you get the oldest person from Nigeria

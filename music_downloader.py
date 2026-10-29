@@ -7,6 +7,7 @@ video_url = "https://www.youtube.com/watch?v=i8IPlJksPns"
 # Configuration options (mimics command-line flags)
 ydl_opts = {
 "format": "bestaudio/best",
+# 'ffmpeg_location': r'C:\ffmpeg\bin',
 "postprocessors": [
 {
 "key": "FFmpegExtractAudio",
