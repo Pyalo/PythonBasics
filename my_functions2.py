@@ -62,5 +62,3 @@ print(divider(10, 3))
 # data = {"name":"Ken", "gender":"male"}
 # for key, value in data.items():
 #     print(f"{key}: {value}")
-
-#TODO functions as a parameter
