@@ -13,7 +13,7 @@ def area_circle(radius, precision=3):
     result = round(a, precision)
     print(result)
 
-def volume_cylinder(radius, height):
+def volume_cylinder(radius:float, height:float):
     v= 22/7 * radius**2 * height
     return v
 
