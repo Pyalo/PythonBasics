@@ -40,9 +40,16 @@ students = [{"name":"Emerald Bowen","email":"ullamcorper.nisl@yahoo.org","countr
 #lambda expressions
 # sort the list / filter
 
-age_sorted = sorted(students, key = lambda s:s["country"])
-
-for student in age_sorted:
-    print(student)
+# age_sorted = sorted(students, key = lambda s:s["country"])
+#
+# for student in age_sorted:
+#     print(student)
 
 # what if someone tells you get the oldest person from Nigeria
+
+# oldest_student = max(
+#     filter(lambda student: student["age"] > 45, students),
+#     key=lambda student: student["age"]
+# )
+# print(oldest_student)
+
