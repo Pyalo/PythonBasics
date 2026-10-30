@@ -17,6 +17,11 @@ class Employee:
         print(self.department)
         print(self.gender)
         print("----------------------")
+
+
+    def print_name(self  ):
+        print(f"Name is {self.full_name}")
+
 #subclass/child
 class SalariedEmployee(Employee):
     def __init__(self, name:str, id_no:str, department:str, gender:str,salary:int, tenure:int):
@@ -37,3 +42,10 @@ c1 = CasualWorkers("Jack Daniels", "46387464", "Sales","M",44)
 s1.print_details()
 c1.print_details()
 print(c1.calc_wage(40))
+
+
+c1.print_name()
+
+#create your own branch
+#command used to create new branch#
+#you can write some code to test your code
