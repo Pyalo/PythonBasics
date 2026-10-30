@@ -46,6 +46,6 @@ print(c1.calc_wage(40))
 
 c1.print_name()
 
-#create your own branch
+#create your own branch and check how to push a branch
 #command used to create new branch#
 #you can write some code to test your code
