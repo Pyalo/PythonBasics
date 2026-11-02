@@ -37,14 +37,21 @@ class CasualWorkers(Employee):
     def calc_wage(self, hours:float  ):
         return hours * self.rate
 
+    def print_details(self):
+        print(f"Rate is {self.rate} per hour")
+        super().print_details()
+        print(self.calc_wage(60))
+
 s1 = SalariedEmployee("Elizabeth Susan", "24553344", 'HR', "F", 35_333, 3)
 c1 = CasualWorkers("Jack Daniels", "46387464", "Sales","M",44)
 s1.print_details()
 c1.print_details()
 print(c1.calc_wage(40))
-
-
 c1.print_name()
+
+
+#module==file and package
+
 
 #create your own branch and check how to push a branch
 #command used to create new branch#
